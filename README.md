@@ -6,11 +6,19 @@ A lightweight, web-based **IPMI-style remote power controller** for an ESP32-C3 
 
 ## Preview
 
-| Web UI | Hardware prototype |
-| --- | --- |
-| ![PC Control web UI, local IP redacted](images/web-ui-redacted.jpg) | ![ESP32-C3 SuperMini hardware prototype](images/hardware-prototype.webp) |
+### Web UI
 
-The web UI screenshot has the local IP address intentionally redacted before publication. The hardware photo shows the current ESP32-C3 SuperMini prototype in its small enclosure with USB-C power and the PWR_SW wiring.
+<p align="center">
+  <img src="images/web-ui-preview.svg" alt="PC Control web UI with local IP redacted" width="900">
+</p>
+
+### Hardware prototype
+
+<p align="center">
+  <img src="images/hardware-prototype.webp" alt="ESP32-C3 SuperMini hardware prototype" width="760">
+</p>
+
+The local IP address is intentionally omitted from the published UI preview. The hardware photo shows the current ESP32-C3 SuperMini prototype in its small enclosure with USB-C power and the PWR_SW wiring.
 
 ## Features
 
