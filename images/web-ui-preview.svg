@@ -1,0 +1,55 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1120" height="940" viewBox="0 0 1120 940">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#213e6a"/>
+      <stop offset="0.42" stop-color="#0b1524"/>
+      <stop offset="1" stop-color="#03070d"/>
+    </linearGradient>
+    <linearGradient id="blue" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#4a86e8"/>
+      <stop offset="1" stop-color="#3367c1"/>
+    </linearGradient>
+    <linearGradient id="red" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#db4138"/>
+      <stop offset="1" stop-color="#b72416"/>
+    </linearGradient>
+    <filter id="glow">
+      <feGaussianBlur stdDeviation="5" result="b"/>
+      <feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge>
+    </filter>
+  </defs>
+  <rect width="1120" height="940" fill="url(#bg)"/>
+  <text x="24" y="28" fill="#7892b4" font-family="monospace" font-size="13" letter-spacing="3">ATX // REMOTE TERMINAL</text>
+  <text x="24" y="94" fill="#fff" font-family="Arial,sans-serif" font-size="58" font-weight="900">PC CONTROL</text>
+  <rect x="1018" y="43" width="83" height="38" rx="19" fill="#08101a" stroke="#314258"/>
+  <circle cx="1038" cy="62" r="7" fill="#22c55e" filter="url(#glow)"/>
+  <text x="1053" y="67" fill="#9fb6d3" font-family="monospace" font-size="12">ONLINE</text>
+
+  <rect x="22" y="126" width="1076" height="364" rx="26" fill="#082f6b" opacity=".8"/>
+  <rect x="22" y="118" width="1076" height="364" rx="26" fill="url(#blue)" stroke="#72acff" stroke-width="1.5"/>
+  <text x="72" y="337" fill="#fff" font-family="Arial,sans-serif" font-size="92">⏻</text>
+  <text x="826" y="316" fill="#fff" font-family="Arial,sans-serif" font-size="62" font-weight="900">POWER</text>
+  <text x="900" y="360" fill="#d7e7ff" font-family="monospace" font-size="20">500ms // PWR_SW</text>
+
+  <rect x="22" y="512" width="1076" height="278" rx="26" fill="#5b0909" opacity=".8"/>
+  <rect x="22" y="504" width="1076" height="278" rx="26" fill="url(#red)" stroke="#ef6868" stroke-width="1.5"/>
+  <text x="76" y="668" fill="#fff" font-family="Arial,sans-serif" font-size="86" font-weight="700">!</text>
+  <text x="730" y="646" fill="#fff" font-family="Arial,sans-serif" font-size="59" font-weight="900">HARD OFF</text>
+  <text x="850" y="691" fill="#ffd5d5" font-family="monospace" font-size="18">HOLD 1.7s // THEN 5.5s</text>
+  <rect x="50" y="748" width="1020" height="5" rx="3" fill="#671111"/>
+
+  <rect x="22" y="803" width="1076" height="60" rx="12" fill="#07101a" stroke="#304258"/>
+  <text x="42" y="839" fill="#82a3cb" font-family="monospace" font-size="14">SYSTEM READY</text>
+
+  <rect x="22" y="878" width="984" height="51" rx="12" fill="#07101a" stroke="#304258"/>
+  <line x1="472" y1="878" x2="472" y2="929" stroke="#26374b"/>
+  <line x1="722" y1="878" x2="722" y2="929" stroke="#26374b"/>
+  <text x="38" y="898" fill="#526985" font-family="monospace" font-size="10">IP</text>
+  <rect x="38" y="908" width="146" height="12" rx="4" fill="#0c1a28"/>
+  <text x="488" y="898" fill="#526985" font-family="monospace" font-size="10">RSSI</text>
+  <text x="488" y="919" fill="#b5d1f4" font-family="monospace" font-size="16">-63 dBm</text>
+  <text x="740" y="898" fill="#526985" font-family="monospace" font-size="10">UPTIME</text>
+  <text x="740" y="919" fill="#b5d1f4" font-family="monospace" font-size="16">00:01:04</text>
+  <rect x="1018" y="878" width="80" height="51" rx="12" fill="#0d1826" stroke="#304660"/>
+  <text x="1043" y="914" fill="#8aa2c0" font-family="Arial,sans-serif" font-size="27">⚙</text>
+</svg>
